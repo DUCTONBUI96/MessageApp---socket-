@@ -1,0 +1,17 @@
+D:\CODE\Nhom_BMCDL\CuoiKi\CuoiKi\FileManagerServer\FileManagerServer\obj\Debug\net8.0-windows\FileManagerServer.ServerForm.resources
+D:\CODE\Nhom_BMCDL\CuoiKi\CuoiKi\FileManagerServer\FileManagerServer\obj\Debug\net8.0-windows\FileManagerServer.csproj.GenerateResource.cache
+D:\CODE\Nhom_BMCDL\CuoiKi\CuoiKi\FileManagerServer\FileManagerServer\obj\Debug\net8.0-windows\FileManagerServer.GeneratedMSBuildEditorConfig.editorconfig
+D:\CODE\Nhom_BMCDL\CuoiKi\CuoiKi\FileManagerServer\FileManagerServer\obj\Debug\net8.0-windows\FileManagerServer.AssemblyInfoInputs.cache
+D:\CODE\Nhom_BMCDL\CuoiKi\CuoiKi\FileManagerServer\FileManagerServer\obj\Debug\net8.0-windows\FileManagerServer.AssemblyInfo.cs
+D:\CODE\Nhom_BMCDL\CuoiKi\CuoiKi\FileManagerServer\FileManagerServer\obj\Debug\net8.0-windows\FileManagerServer.csproj.CoreCompileInputs.cache
+D:\CODE\Nhom_BMCDL\CuoiKi\CuoiKi\FileManagerServer\FileManagerServer\bin\Debug\net8.0-windows\FileManagerServer.exe
+D:\CODE\Nhom_BMCDL\CuoiKi\CuoiKi\FileManagerServer\FileManagerServer\bin\Debug\net8.0-windows\FileManagerServer.deps.json
+D:\CODE\Nhom_BMCDL\CuoiKi\CuoiKi\FileManagerServer\FileManagerServer\bin\Debug\net8.0-windows\FileManagerServer.runtimeconfig.json
+D:\CODE\Nhom_BMCDL\CuoiKi\CuoiKi\FileManagerServer\FileManagerServer\bin\Debug\net8.0-windows\FileManagerServer.dll
+D:\CODE\Nhom_BMCDL\CuoiKi\CuoiKi\FileManagerServer\FileManagerServer\bin\Debug\net8.0-windows\FileManagerServer.pdb
+D:\CODE\Nhom_BMCDL\CuoiKi\CuoiKi\FileManagerServer\FileManagerServer\obj\Debug\net8.0-windows\FileManagerServer.dll
+D:\CODE\Nhom_BMCDL\CuoiKi\CuoiKi\FileManagerServer\FileManagerServer\obj\Debug\net8.0-windows\refint\FileManagerServer.dll
+D:\CODE\Nhom_BMCDL\CuoiKi\CuoiKi\FileManagerServer\FileManagerServer\obj\Debug\net8.0-windows\FileManagerServer.pdb
+D:\CODE\Nhom_BMCDL\CuoiKi\CuoiKi\FileManagerServer\FileManagerServer\obj\Debug\net8.0-windows\FileManagerServer.genruntimeconfig.cache
+D:\CODE\Nhom_BMCDL\CuoiKi\CuoiKi\FileManagerServer\FileManagerServer\obj\Debug\net8.0-windows\ref\FileManagerServer.dll
+D:\CODE\Nhom_BMCDL\CuoiKi\CuoiKi\FileManagerServer\FileManagerServer\bin\Debug\net8.0-windows\FileManagerServer.dll.config
