@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\CODE\\Nhom_BMCDL\\CuoiKi\\CuoiKi\\FileManagerServer\\FileManagerServer\\FileManagerServer.csproj",
+      "projectUniqueName": "D:\\CODE\\chat-app\\FileManagerServer\\FileManagerServer\\FileManagerServer.csproj",
       "projectName": "FileManagerServer",
-      "projectPath": "D:\\CODE\\Nhom_BMCDL\\CuoiKi\\CuoiKi\\FileManagerServer\\FileManagerServer\\FileManagerServer.csproj",
+      "projectPath": "D:\\CODE\\chat-app\\FileManagerServer\\FileManagerServer\\FileManagerServer.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "D:\\CODE\\Nhom_BMCDL\\CuoiKi\\CuoiKi\\FileManagerServer\\FileManagerServer\\obj\\",
+      "outputPath": "D:\\CODE\\chat-app\\FileManagerServer\\FileManagerServer\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

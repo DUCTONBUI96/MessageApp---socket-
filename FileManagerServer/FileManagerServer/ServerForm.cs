@@ -10,6 +10,7 @@ using System.Text;
 using System.Text.Json;
 using System.Threading;
 using System.Windows.Forms;
+using Microsoft.VisualBasic.Logging;
 
 namespace FileManagerServer
 {
@@ -324,7 +325,6 @@ namespace FileManagerServer
             try
             {
                 int port = int.Parse(txtPort.Text);
-                serverPath = txtServerPath.Text;
                 maxClients = int.Parse(txtMaxClients.Text);
 
                 if (!Directory.Exists(serverPath))
@@ -364,27 +364,80 @@ namespace FileManagerServer
         }
 
 
-        private void SendFileListToClient(TcpClient client, string folderPath)
+        private void SendFileListToClient(TcpClient client, string relativePath)
         {
             try
             {
-                if (!Directory.Exists(folderPath))
+                string fullPath = GetFullPath(relativePath);
+
+                if (!Directory.Exists(fullPath))
                 {
                     SendResponse(client, "LIST_FILES", "[]");
                     return;
                 }
 
-                string[] files = Directory.GetFiles(folderPath);
-                var fileNames = files.Select(f => Path.GetFileName(f)).ToList();
-                string json = JsonSerializer.Serialize(fileNames);
+                var entries = new List<Dictionary<string, object>>();
 
+                // Thêm thư mục con
+                foreach (var dir in Directory.GetDirectories(fullPath))
+                {
+                    var dirInfo = new DirectoryInfo(dir);
+                    entries.Add(new Dictionary<string, object>
+                    {
+                        ["Name"] = dirInfo.Name,
+                        ["Type"] = "folder",
+                        ["LastModified"] = dirInfo.LastWriteTime.ToString("yyyy-MM-dd HH:mm:ss"),
+                        ["Path"] = GetRelativePath(dir, serverPath) // Trả path tương đối so với thư mục gốc
+                    });
+                }
+
+                // Thêm file
+                foreach (var file in Directory.GetFiles(fullPath))
+                {
+                    var fileInfo = new FileInfo(file);
+                    entries.Add(new Dictionary<string, object>
+                    {
+                        ["Name"] = fileInfo.Name,
+                        ["Type"] = "file",
+                        ["Size"] = fileInfo.Length,
+                        ["LastModified"] = fileInfo.LastWriteTime.ToString("yyyy-MM-dd HH:mm:ss"),
+                        ["Path"] = GetRelativePath(file, serverPath)
+                    });
+                }
+
+                string json = JsonSerializer.Serialize(entries);
                 SendResponse(client, "LIST_FILES", json);
             }
             catch (Exception ex)
             {
-                SendResponse(client, "ERROR", "Error sending file list: " + ex.Message);
+                SendResponse(client, "LIST_FILES", "[]");
+                //Log?.Invoke($"[ERROR] SendFileListToClient: {ex.Message}");
             }
         }
+
+
+        private void ShowDebug(string message)
+        {
+            // Dùng form chính gọi MessageBox từ UI thread
+            if (Application.OpenForms.Count > 0)
+            {
+                var mainForm = Application.OpenForms[0];
+                mainForm.Invoke((MethodInvoker)(() =>
+                {
+                    MessageBox.Show(message, "DEBUG", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                }));
+            }
+        }
+
+
+
+        private string GetRelativePath(string fullPath, string basePath)
+        {
+            string relative = fullPath.Replace(basePath, "").Replace("\\", "/");
+            return string.IsNullOrEmpty(relative) || relative == "/" ? "/" : relative;
+        }
+
+
 
 
         private void StopServer()
@@ -783,13 +836,14 @@ namespace FileManagerServer
         {
             using (var dialog = new FolderBrowserDialog())
             {
-                dialog.SelectedPath = txtServerPath.Text;
                 if (dialog.ShowDialog() == DialogResult.OK)
                 {
                     txtServerPath.Text = dialog.SelectedPath;
+                    serverPath = dialog.SelectedPath; // ← Thêm dòng này
                 }
             }
         }
+
 
         private void BtnDisconnectClient_Click(object sender, EventArgs e)
         {
@@ -851,6 +905,19 @@ namespace FileManagerServer
             MessageBox.Show("File Manager Server v1.0\n\nA simple file sharing server with chat functionality.\n\nUsing System.Text.Json for improved performance.",
                            "About", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
+
+        private string GetFullPath(string relativePath)
+        {
+            if (Path.IsPathRooted(relativePath))
+            {
+                // Nếu path gửi từ client là tuyệt đối, bỏ qua – tránh rủi ro bảo mật
+                return serverPath;
+            }
+
+            string combined = Path.Combine(serverPath, relativePath.TrimStart('/', '\\'));
+            return Path.GetFullPath(combined); // chuẩn hóa, loại bỏ ".."
+        }
+
 
         protected override void OnFormClosing(FormClosingEventArgs e)
         {

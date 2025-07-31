@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FileManagerServer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+16cfef0a0f3825663a2c4830b0a7600a66b3660d")]
 [assembly: System.Reflection.AssemblyProductAttribute("FileManagerServer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FileManagerServer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

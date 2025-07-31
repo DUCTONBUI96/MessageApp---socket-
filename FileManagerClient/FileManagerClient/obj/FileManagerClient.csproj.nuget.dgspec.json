@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\CODE\\Nhom_BMCDL\\CuoiKi\\CuoiKi\\FileManagerClient\\FileManagerClient\\FileManagerClient.csproj": {}
+    "D:\\CODE\\chat-app\\FileManagerClient\\FileManagerClient\\FileManagerClient.csproj": {}
   },
   "projects": {
-    "D:\\CODE\\Nhom_BMCDL\\CuoiKi\\CuoiKi\\FileManagerClient\\FileManagerClient\\FileManagerClient.csproj": {
+    "D:\\CODE\\chat-app\\FileManagerClient\\FileManagerClient\\FileManagerClient.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\CODE\\Nhom_BMCDL\\CuoiKi\\CuoiKi\\FileManagerClient\\FileManagerClient\\FileManagerClient.csproj",
+        "projectUniqueName": "D:\\CODE\\chat-app\\FileManagerClient\\FileManagerClient\\FileManagerClient.csproj",
         "projectName": "FileManagerClient",
-        "projectPath": "D:\\CODE\\Nhom_BMCDL\\CuoiKi\\CuoiKi\\FileManagerClient\\FileManagerClient\\FileManagerClient.csproj",
+        "projectPath": "D:\\CODE\\chat-app\\FileManagerClient\\FileManagerClient\\FileManagerClient.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "D:\\CODE\\Nhom_BMCDL\\CuoiKi\\CuoiKi\\FileManagerClient\\FileManagerClient\\obj\\",
+        "outputPath": "D:\\CODE\\chat-app\\FileManagerClient\\FileManagerClient\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

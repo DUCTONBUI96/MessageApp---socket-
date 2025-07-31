@@ -1,29 +1,29 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\CODE\\Nhom_BMCDL\\CuoiKi\\CuoiKi\\FileManagerServer\\",
+  "WorkspaceRootPath": "D:\\CODE\\chat-app\\FileManagerServer\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{AA3B7C12-5858-44B2-88F6-D5E73F2442DE}|FileManagerServer\\FileManagerServer.csproj|d:\\code\\nhom_bmcdl\\cuoiki\\cuoiki\\filemanagerserver\\filemanagerserver\\serverform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AA3B7C12-5858-44B2-88F6-D5E73F2442DE}|FileManagerServer\\FileManagerServer.csproj|d:\\code\\chat-app\\filemanagerserver\\filemanagerserver\\serverform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AA3B7C12-5858-44B2-88F6-D5E73F2442DE}|FileManagerServer\\FileManagerServer.csproj|solutionrelative:filemanagerserver\\serverform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AA3B7C12-5858-44B2-88F6-D5E73F2442DE}|FileManagerServer\\FileManagerServer.csproj|d:\\code\\nhom_bmcdl\\cuoiki\\cuoiki\\filemanagerserver\\filemanagerserver\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{AA3B7C12-5858-44B2-88F6-D5E73F2442DE}|FileManagerServer\\FileManagerServer.csproj|solutionrelative:filemanagerserver\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AA3B7C12-5858-44B2-88F6-D5E73F2442DE}|FileManagerServer\\FileManagerServer.csproj|d:\\code\\nhom_bmcdl\\cuoiki\\cuoiki\\filemanagerserver\\filemanagerserver\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{AA3B7C12-5858-44B2-88F6-D5E73F2442DE}|FileManagerServer\\FileManagerServer.csproj|solutionrelative:filemanagerserver\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AA3B7C12-5858-44B2-88F6-D5E73F2442DE}|FileManagerServer\\FileManagerServer.csproj|d:\\code\\nhom_bmcdl\\cuoiki\\cuoiki\\filemanagerserver\\filemanagerserver\\serverform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{AA3B7C12-5858-44B2-88F6-D5E73F2442DE}|FileManagerServer\\FileManagerServer.csproj|solutionrelative:filemanagerserver\\serverform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{AA3B7C12-5858-44B2-88F6-D5E73F2442DE}|FileManagerServer\\FileManagerServer.csproj|D:\\CODE\\Nhom_BMCDL\\CuoiKi\\CuoiKi\\FileManagerServer\\filemanagerserver\\serverform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{AA3B7C12-5858-44B2-88F6-D5E73F2442DE}|FileManagerServer\\FileManagerServer.csproj|D:\\CODE\\chat-app\\FileManagerServer\\filemanagerserver\\serverform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{AA3B7C12-5858-44B2-88F6-D5E73F2442DE}|FileManagerServer\\FileManagerServer.csproj|solutionrelative:filemanagerserver\\serverform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{AA3B7C12-5858-44B2-88F6-D5E73F2442DE}|FileManagerServer\\FileManagerServer.csproj|d:\\code\\nhom_bmcdl\\cuoiki\\cuoiki\\filemanagerserver\\filemanagerserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{AA3B7C12-5858-44B2-88F6-D5E73F2442DE}|FileManagerServer\\FileManagerServer.csproj|d:\\code\\chat-app\\filemanagerserver\\filemanagerserver\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{AA3B7C12-5858-44B2-88F6-D5E73F2442DE}|FileManagerServer\\FileManagerServer.csproj|solutionrelative:filemanagerserver\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA3B7C12-5858-44B2-88F6-D5E73F2442DE}|FileManagerServer\\FileManagerServer.csproj|d:\\code\\chat-app\\filemanagerserver\\filemanagerserver\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{AA3B7C12-5858-44B2-88F6-D5E73F2442DE}|FileManagerServer\\FileManagerServer.csproj|solutionrelative:filemanagerserver\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA3B7C12-5858-44B2-88F6-D5E73F2442DE}|FileManagerServer\\FileManagerServer.csproj|d:\\code\\chat-app\\filemanagerserver\\filemanagerserver\\serverform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA3B7C12-5858-44B2-88F6-D5E73F2442DE}|FileManagerServer\\FileManagerServer.csproj|solutionrelative:filemanagerserver\\serverform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA3B7C12-5858-44B2-88F6-D5E73F2442DE}|FileManagerServer\\FileManagerServer.csproj|d:\\code\\chat-app\\filemanagerserver\\filemanagerserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{AA3B7C12-5858-44B2-88F6-D5E73F2442DE}|FileManagerServer\\FileManagerServer.csproj|solutionrelative:filemanagerserver\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -78,11 +78,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "packages.config",
-              "DocumentMoniker": "D:\\CODE\\Nhom_BMCDL\\CuoiKi\\CuoiKi\\FileManagerServer\\FileManagerServer\\packages.config",
+              "DocumentMoniker": "D:\\CODE\\chat-app\\FileManagerServer\\FileManagerServer\\packages.config",
               "RelativeDocumentMoniker": "FileManagerServer\\packages.config",
-              "ToolTip": "D:\\CODE\\Nhom_BMCDL\\CuoiKi\\CuoiKi\\FileManagerServer\\FileManagerServer\\packages.config",
+              "ToolTip": "D:\\CODE\\chat-app\\FileManagerServer\\FileManagerServer\\packages.config",
               "RelativeToolTip": "FileManagerServer\\packages.config",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
@@ -92,11 +92,11 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "App.config",
-              "DocumentMoniker": "D:\\CODE\\Nhom_BMCDL\\CuoiKi\\CuoiKi\\FileManagerServer\\FileManagerServer\\App.config",
+              "DocumentMoniker": "D:\\CODE\\chat-app\\FileManagerServer\\FileManagerServer\\App.config",
               "RelativeDocumentMoniker": "FileManagerServer\\App.config",
-              "ToolTip": "D:\\CODE\\Nhom_BMCDL\\CuoiKi\\CuoiKi\\FileManagerServer\\FileManagerServer\\App.config",
+              "ToolTip": "D:\\CODE\\chat-app\\FileManagerServer\\FileManagerServer\\App.config",
               "RelativeToolTip": "FileManagerServer\\App.config",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAPAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
               "WhenOpened": "2025-07-29T15:49:41.166Z"
             },
@@ -104,9 +104,9 @@
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\CODE\\Nhom_BMCDL\\CuoiKi\\CuoiKi\\FileManagerServer\\FileManagerServer\\Program.cs",
+              "DocumentMoniker": "D:\\CODE\\chat-app\\FileManagerServer\\FileManagerServer\\Program.cs",
               "RelativeDocumentMoniker": "FileManagerServer\\Program.cs",
-              "ToolTip": "D:\\CODE\\Nhom_BMCDL\\CuoiKi\\CuoiKi\\FileManagerServer\\FileManagerServer\\Program.cs",
+              "ToolTip": "D:\\CODE\\chat-app\\FileManagerServer\\FileManagerServer\\Program.cs",
               "RelativeToolTip": "FileManagerServer\\Program.cs",
               "ViewState": "AgIAAAQAAAAAAAAAAAAewA0AAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -114,11 +114,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "ServerForm.Designer.cs",
-              "DocumentMoniker": "D:\\CODE\\Nhom_BMCDL\\CuoiKi\\CuoiKi\\FileManagerServer\\FileManagerServer\\ServerForm.Designer.cs",
+              "DocumentMoniker": "D:\\CODE\\chat-app\\FileManagerServer\\FileManagerServer\\ServerForm.Designer.cs",
               "RelativeDocumentMoniker": "FileManagerServer\\ServerForm.Designer.cs",
-              "ToolTip": "D:\\CODE\\Nhom_BMCDL\\CuoiKi\\CuoiKi\\FileManagerServer\\FileManagerServer\\ServerForm.Designer.cs",
+              "ToolTip": "D:\\CODE\\chat-app\\FileManagerServer\\FileManagerServer\\ServerForm.Designer.cs",
               "RelativeToolTip": "FileManagerServer\\ServerForm.Designer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -128,22 +128,22 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "ServerForm.cs",
-              "DocumentMoniker": "D:\\CODE\\Nhom_BMCDL\\CuoiKi\\CuoiKi\\FileManagerServer\\FileManagerServer\\ServerForm.cs",
+              "DocumentMoniker": "D:\\CODE\\chat-app\\FileManagerServer\\FileManagerServer\\ServerForm.cs",
               "RelativeDocumentMoniker": "FileManagerServer\\ServerForm.cs",
-              "ToolTip": "D:\\CODE\\Nhom_BMCDL\\CuoiKi\\CuoiKi\\FileManagerServer\\FileManagerServer\\ServerForm.cs",
+              "ToolTip": "D:\\CODE\\chat-app\\FileManagerServer\\FileManagerServer\\ServerForm.cs",
               "RelativeToolTip": "FileManagerServer\\ServerForm.cs",
-              "ViewState": "AgIAAIIBAAAAAAAAAADwv6kBAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAJABAAAAAAAAAAAuwJkBAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-29T15:45:26.409Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "ServerForm.cs [Design]",
-              "DocumentMoniker": "D:\\CODE\\Nhom_BMCDL\\CuoiKi\\CuoiKi\\FileManagerServer\\FileManagerServer\\ServerForm.cs",
+              "DocumentMoniker": "D:\\CODE\\chat-app\\FileManagerServer\\FileManagerServer\\ServerForm.cs",
               "RelativeDocumentMoniker": "FileManagerServer\\ServerForm.cs",
-              "ToolTip": "D:\\CODE\\Nhom_BMCDL\\CuoiKi\\CuoiKi\\FileManagerServer\\FileManagerServer\\ServerForm.cs [Design]",
+              "ToolTip": "D:\\CODE\\chat-app\\FileManagerServer\\FileManagerServer\\ServerForm.cs [Design]",
               "RelativeToolTip": "FileManagerServer\\ServerForm.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-29T15:45:15.121Z"
